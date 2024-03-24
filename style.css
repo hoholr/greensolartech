@@ -27,3 +27,8 @@ body, .text-open-sans{font-family: "Open Sans",sans-serif;}
     .power-counter{left: 0;position: absolute;}
     .position-md-relative{position: relative!important;}
 }
+
+@media(min-width:992px){
+    .power-counter{left: 0;position: absolute;}
+    .position-lg-relative{position: relative!important;}
+}
