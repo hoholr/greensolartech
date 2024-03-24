@@ -17,6 +17,7 @@ body, .text-open-sans{font-family: "Open Sans",sans-serif;}
 .nav-link.btn-warning.text-dark{color: #343a40!important;}
 .bg-green-bar{top: 0; width: 200vw; position: absolute; z-index: -1; bottom: 0; left: -50vw; }
 .power-counter{width:100%;}
+.mt-6 {margin-top: 5em;}
 
 @media(min-width:576px){
     .power-counter{width:auto;max-width:540px;margin:0 auto;position: relative;}
@@ -24,4 +25,5 @@ body, .text-open-sans{font-family: "Open Sans",sans-serif;}
 
 @media(min-width:768px){
     .power-counter{left: 0;position: absolute;}
+    .position-md-relative{position: relative!important;}
 }
