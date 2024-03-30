@@ -13,18 +13,22 @@ html, body{max-width: 100vw;overflow-x: hidden;}
 body, .text-open-sans{font-family: "Open Sans",sans-serif;}
 
 .head-logo{filter: drop-shadow(0px 0px 35px #fff);}
+.head-logo-dark{filter: drop-shadow(0px 0px 25px #000);}
 .shadow-1 {box-shadow: 0 0rem 1em rgba(0,0,0,.35)!important;}
 .nav-link.btn-warning.text-dark{color: #343a40!important;}
 .bg-green-bar{top: 0; width: 200vw; position: absolute; z-index: -1; bottom: 0; left: -50vw; }
 .power-counter{width:100%;}
 .mt-6 {margin-top: 5em;}
+.post-edit-link{display: none!important;}
+#custom_html-2{list-style: none;line-height: 0;}
+.img-hdr {filter: brightness(0.8) contrast(1.2); }
 
 @media(min-width:576px){
     .power-counter{width:auto;max-width:540px;margin:0 auto;position: relative;}
 }
 
 @media(min-width:768px){
-    .power-counter{left: 0;position: absolute;}
+    .power-counter{left: 0;position: absolute;transform:translateY(50%);bottom: 0;}
     .position-md-relative{position: relative!important;}
 }
 
